@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto - El Sazón del Norte</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="estilos.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container">
+
+            <img src="logosazon.png"
+                 alt="Logo El Sazón del Norte">
+
+            <h1>“EL SAZÓN DEL NORTE”</h1>
+
+            <p>~ Tacos al vapor ~</p>
+
+        </div>
+
+    </header>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+
+        <div class="container">
+
+            <a class="navbar-brand d-flex align-items-center"
+               href="index.html">
+
+                <img src="logosazon.png"
+                     alt="Logo"
+                     height="40"
+                     class="me-2">
+
+                El Sazón del Norte
+
+            </a>
+
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuNav">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="menuNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle text-warning"
+                           href="#"
+                           data-bs-toggle="dropdown">
+
+                            Menú de Opciones (8)
+
+                        </a>
+
+                        <ul class="dropdown-menu">
+
+                            <li><a class="dropdown-item" href="index.html">1. Quiénes Somos</a></li>
+                            <li><a class="dropdown-item" href="maiz.html">2. Tacos de Maíz ($14.00)</a></li>
+                            <li><a class="dropdown-item" href="harina.html">3. Tacos de Harina ($18.00)</a></li>
+                            <li><a class="dropdown-item" href="eventos.html">4. Pedidos para Eventos</a></li>
+                            <li><a class="dropdown-item" href="galeria.html">5. Galería de Fotos</a></li>
+                            <li><a class="dropdown-item" href="ubicacion.html">6. Ubicación y Mapa</a></li>
+                            <li><a class="dropdown-item" href="horarios.html">7. Horarios y Servicio</a></li>
+                            <li><a class="dropdown-item" href="contacto.html">8. Contacto y Redes</a></li>
+
+                        </ul>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <main class="container contenido-principal my-5">
+
+        <section>
+
+            <article class="caja-principal">
+
+                <h2 class="titulo-seccion text-center">
+                    8. Contacto y Redes Sociales
+                </h2>
+
+                <hr>
+
+
+                <div class="row g-4">
+
+
+                    <div class="col-md-5">
+
+                        <div class="contacto-info">
+
+                            <h3>
+                                ¡Contáctanos!
+                            </h3>
+
+                            <p>
+                                Si deseas realizar un pedido o tienes
+                                alguna pregunta, puedes comunicarte
+                                con nosotros.
+                            </p>
+
+
+                            <p>
+                                <strong>📍 Dirección:</strong><br>
+
+                                Av. Adolfo López Mateos Km. 2.5,
+                                Monterrey, Nuevo León.
+                            </p>
+
+
+                            <p>
+                                <strong>📞 Teléfono:</strong><br>
+
+                                <a href="tel:+528123385694">
+                                    81 2338 5694
+                                </a>
+
+                            </p>
+
+
+                            <p>
+                                <strong>🌮 Servicio:</strong><br>
+
+                                Tacos al vapor para llevar y
+                                pedidos anticipados.
+                            </p>
+
+
+                            <a href="https://wa.me/528123385694"
+                               target="_blank"
+                               class="btn btn-success btn-lg mt-3">
+
+                                💬 Pedir por WhatsApp
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-7">
+
+                        <div class="formulario-contacto">
+
+                            <h3>
+                                Datos del pedido
+                            </h3>
+
+                            <p>
+                                Escribe tus datos y tu pedido.
+                                Después puedes enviarlo por WhatsApp.
+                            </p>
+
+
+                            <form>
+
+                                <div class="mb-3">
+
+                                    <label for="nombre"
+                                           class="form-label">
+
+                                        Nombre
+
+                                    </label>
+
+                                    <input type="text"
+                                           class="form-control"
+                                           id="nombre"
+                                           placeholder="Escribe tu nombre">
+
+                                </div>
+
+
+                                <div class="mb-3">
+
+                                    <label for="telefono"
+                                           class="form-label">
+
+                                        Teléfono
+
+                                    </label>
+
+                                    <input type="tel"
+                                           class="form-control"
+                                           id="telefono"
+                                           placeholder="Escribe tu teléfono">
+
+                                </div>
+
+
+                                <div class="mb-3">
+
+                                    <label for="pedido"
+                                           class="form-label">
+
+                                        Pedido o consulta
+
+                                    </label>
+
+                                    <textarea class="form-control"
+                                              id="pedido"
+                                              rows="5"
+                                              placeholder="Escribe aquí tu pedido o alguna pregunta"></textarea>
+
+                                </div>
+
+
+                                <a href="https://wa.me/528123385694"
+                                   target="_blank"
+                                   class="btn btn-danger btn-lg">
+
+                                    Enviar pedido por WhatsApp
+
+                                </a>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <section class="mt-5">
+
+            <div class="caja-principal text-center">
+
+                <h3>
+                    Atención y pedidos
+                </h3>
+
+                <p>
+                    Para pedidos grandes o para eventos,
+                    se recomienda comunicarse con anticipación.
+                </p>
+
+                <a href="horarios.html"
+                   class="btn btn-outline-danger">
+
+                    Ver horarios
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="py-4 text-center">
+
+        <p class="mb-0">
+            &copy; 2026 El Sazón del Norte | Tacos al Vapor
+        </p>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

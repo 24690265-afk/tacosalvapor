@@ -1,0 +1,375 @@
+/* =========================================
+   ESTILOS GENERALES
+   EL SAZÓN DEL NORTE
+========================================= */
+
+body {
+    background-color: #ffffff !important;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: #262626;
+    margin: 0;
+}
+
+
+/* =========================================
+   ENCABEZADO
+========================================= */
+
+header {
+    background: linear-gradient(135deg, #38070c 0%, #520c13 60%, #78121c 100%);
+    color: #f2e3c6;
+    border-bottom: 4px solid #d97706;
+    padding: 25px 0 !important;
+}
+
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header img {
+    width: 115px;
+    height: 115px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+
+
+header h1 {
+    color: #f2e3c6 !important;
+    font-size: 2.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 5px 0;
+}
+
+
+header p {
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+
+/* =========================================
+   MENÚ DE NAVEGACIÓN
+========================================= */
+
+.navbar {
+    background-color: #2b0609 !important;
+    border-bottom: 2px solid #3e5c26;
+}
+
+
+.navbar-brand {
+    color: #f2e3c6 !important;
+    font-weight: bold;
+}
+
+
+.navbar-brand img {
+    object-fit: contain;
+}
+
+
+.navbar-brand:hover {
+    color: #ffffff !important;
+}
+
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+
+.nav-link:hover {
+    color: #f2e3c6 !important;
+}
+
+
+/* =========================================
+   MENÚ DESPLEGABLE
+========================================= */
+
+.dropdown-menu {
+    background-color: #ffffff;
+    border: 1px solid #d97706;
+}
+
+
+.dropdown-item {
+    color: #520c13;
+}
+
+
+.dropdown-item:hover {
+    background-color: #f2e3c6;
+    color: #520c13;
+}
+
+
+/* =========================================
+   CONTENIDO
+========================================= */
+
+.contenido-principal {
+    min-height: 600px;
+}
+
+
+section,
+article,
+aside {
+    background-color: #ffffff;
+}
+
+
+.caja-principal {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================================
+   TITULOS
+========================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.titulo-seccion {
+    color: #520c13 !important;
+    font-weight: bold;
+}
+
+
+.titulo-seccion {
+    font-size: 2rem;
+}
+
+
+/* =========================================
+   TARJETAS
+========================================= */
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease,
+                box-shadow 0.2s ease;
+}
+
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(82, 12, 19, 0.12);
+}
+
+
+.card-title {
+    color: #3e5c26 !important;
+    font-weight: bold;
+}
+
+
+/* =========================================
+   PRECIOS
+========================================= */
+
+.precio-badge {
+    background-color: #d97706;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 6px 14px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+
+/* =========================================
+   BOTONES
+========================================= */
+
+.btn-danger {
+    background-color: #520c13 !important;
+    border-color: #38070c !important;
+}
+
+
+.btn-danger:hover {
+    background-color: #78121c !important;
+}
+
+
+.btn-success {
+    background-color: #3e5c26 !important;
+    border-color: #3e5c26 !important;
+}
+
+
+.btn-success:hover {
+    background-color: #2f461d !important;
+    border-color: #2f461d !important;
+}
+
+
+/* =========================================
+   CARRUSEL
+========================================= */
+
+.imagen-carrusel {
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.carousel-caption h3 {
+    color: #ffffff !important;
+}
+
+
+.carousel-caption p {
+    color: #ffffff;
+}
+
+
+/* =========================================
+   IMÁGENES DEL MENÚ
+========================================= */
+
+.imagen-menu {
+    width: 100%;
+    max-width: 700px;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+/* =========================================
+   FORMULARIO DE CONTACTO
+========================================= */
+
+.contacto-info,
+.formulario-contacto {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 25px;
+    height: 100%;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+
+.contacto-info h3,
+.formulario-contacto h3 {
+    color: #520c13;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+.contacto-info a {
+    color: #520c13;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.contacto-info a:hover {
+    color: #78121c;
+    text-decoration: underline;
+}
+
+
+.form-control {
+    border: 1px solid #d6c5a8;
+}
+
+
+.form-control:focus {
+    border-color: #520c13;
+    box-shadow: 0 0 0 0.2rem rgba(82, 12, 19, 0.15);
+}
+
+
+/* =========================================
+   TABLAS
+========================================= */
+
+.table thead {
+    background-color: #520c13;
+    color: #ffffff;
+}
+
+
+/* =========================================
+   IMÁGENES
+========================================= */
+
+img {
+    max-width: 100%;
+}
+
+
+/* =========================================
+   PIE DE PÁGINA
+========================================= */
+
+footer {
+    background-color: #2b0609;
+    color: #f2e3c6;
+    border-top: 3px solid #d97706;
+}
+
+
+/* =========================================
+   LÍNEAS
+========================================= */
+
+hr {
+    border-color: #d97706;
+    opacity: 0.7;
+}
+
+
+/* =========================================
+   AJUSTE PARA CELULAR
+========================================= */
+
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 1.7rem;
+    }
+
+    header img {
+        width: 95px;
+        height: 95px;
+    }
+
+    .imagen-carrusel {
+        height: 280px;
+    }
+
+    .imagen-menu {
+        height: 280px;
+    }
+
+}
